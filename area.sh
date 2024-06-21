@@ -4,4 +4,4 @@ read length
 echo "enter breadth"
 read breadth
 area=$((length*breadth))
-echo "length $area"
+echo "area $area"
