@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BootStrap/css/bootstrap.css">
+    <link rel="stylesheet" href="BootStrap/css/mdb.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">NavBar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="#services">Services</a>
+                  <a class="nav-item nav-link" href="#about">About</a>
+                  <a class="nav-item nav-link" href="#contact">Contact</a>
+
+                </div>
+            </div>
+    </header>
+    <main>
+        <section id="home" class="p-3 mb-2 bg-primary text-white">
+            <h2 class="card-title">Home Section</h2>
+            <p class="card-text">HTML, or Hypertext Markup Language, is the standard markup language used to create and design web pages. It forms the backbone of almost 
+                every webpage on the internet, providing the structure and framework for displaying content such as text, images, videos, and links.</p>
+                <ul>
+                    <li>Tags: HTML uses tags to define elements within a document. Tags are enclosed in angle brackets < >, and most come in pairs—an opening tag and a closing tag.</li>
+                    <li>Attributes: Tags can have attributes that provide additional information about an element. Attributes are specified within the opening tag and typically come 
+                        in name/value pairs.</li>
+                    <li>Elements: Elements are formed by a pair of tags (opening and closing) along with the content they enclose. They define the structure of a web page and include 
+                        headings, paragraphs, lists, images, links, etc.</li>
+                </ul>
+        </section>
+        <section id="services" class="p-3 mb-2 bg-white text-dark">
+            <h2 class="card-title">Services Section</h2>
+            <p class="card-text">In the context of web development and websites, "services" generally refers to the offerings or capabilities provided by a business or 
+                organization through its website. These services can vary widely depending on the nature of the business or the purpose of the website. Here are some common 
+                types of services you might encounter:
+            </p>
+            <ul>
+                <li>E-commerce Services: Websites that offer e-commerce services allow users to browse, select, and purchase products or services online. Examples 
+                    include online retail stores like Amazon, eBay, or specialized stores for specific products.</li>
+                <li>Subscription Services: Websites may offer subscription-based services where users pay a recurring fee to access content or services. This could 
+                    include streaming platforms like Netflix or Spotify, online courses, or software-as-a-service (SaaS) products like Adobe Creative Cloud.</li>
+                <li>Informational Services: Many websites provide informational services by offering content such as articles, news updates, tutorials, and educational 
+                    resources. Examples include news websites, educational platforms, and blogs.</li>
+                <li>Social Media Services: Social media platforms offer services that enable users to connect, share content, communicate, and interact with others 
+                    online. Examples include Facebook, Twitter, Instagram, and LinkedIn.</li>
+            </ul>
+        </section>
+        <section id="about" class="p-3 mb-2 bg-light text-dark">
+            <h2 class="card-title">About Section</h2>
+            <p class="card-text">HTML, or Hypertext Markup Language, has evolved significantly since its inception in the early days of the World Wide Web. Here's a brief overview of its development:</p>
+            
+        </section>
+
+        <section id="data">
+            <h2>Html Table</h2>
+            <div>
+            <table class="table table-bordered table-dark">
+                <thead>
+                    <tr>
+                        <th>s.no</th>
+                        <th>Version</th>
+                        <th>Release Year</th>
+                        <th>Notable Features</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>HTML 1.0</td>
+                        <td>1991</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>HTML 2.0</td>
+                        <td>1995</td>
+                        <td>First standardized version</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>HTML 3.2</td>
+                        <td>1997</td>
+                        <td>Introduction of tables and forms</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>HTML 4.01</td>
+                        <td>1999</td>
+                        <td>Support for CSS, scripting languages, and multimedia</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>XHTML 1.0</td>
+                        <td>2000</td>
+                        <td>Introduced stricter syntax based on XML</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>HTML5</td>
+                        <td>2014</td>
+                        <td>Modern standard with support for multimedia, APIs, and semantic elements</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Section</h2>
+            <form action="#contact" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>

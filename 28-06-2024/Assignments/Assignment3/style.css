@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+.container{
+    display: flex;
+}
+.col{
+    flex: 2;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+}
+.col h2{
+    color: rgb(14, 50, 50);
+    margin-top: 0;
+}
+.col p{
+    color: #cd5151;
+}

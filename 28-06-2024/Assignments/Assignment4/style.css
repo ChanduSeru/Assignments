@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    padding: 20px;
+    background-color: rgb(223, 177, 177);
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+header h1{
+    margin: 0;
+    font-size: 2rem;;
+    background-color: rgb(45, 81, 112);
+}
+.menu{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.menu li a:hover {
+    background-color: #555;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+section {
+    flex: 1 1 300px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+section p {
+    color: #666;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    margin: auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #1c4a1e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #9ab49b;
+}
